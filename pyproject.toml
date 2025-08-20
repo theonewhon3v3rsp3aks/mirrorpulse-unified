@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mirrorpulse"
+version = "0.1.0"
+description = "Mirrorpulse unified seed — ethics-forward package with payload slot"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Mirrorpulse Authors" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha"
+]
+dependencies = [
+    "typer>=0.9"
+]
+
+[project.scripts]
+mirrorpulse = "mirrorpulse.cli.main:app"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+

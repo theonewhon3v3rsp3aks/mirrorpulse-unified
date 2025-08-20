@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+dist/
+build/
+
+# Editors
+.vscode/
+.idea/
+
+# Local dev
+.venv/
+__pycache__/
+.pytest_cache/
+

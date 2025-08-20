@@ -1,0 +1,2 @@
+[console_scripts]
+mirrorpulse = mirrorpulse.cli.main:app
